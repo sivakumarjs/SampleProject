@@ -1,0 +1,54 @@
+<div id="tab1">	
+
+<ul  class="nav nav-pills">
+        <li class="active">
+    <a  href="#1a" data-toggle="tab">Overview</a>
+        </li>
+        <li><a href="#2a" data-toggle="tab">Using nav-pills</a>
+        </li>
+        <li><a href="#3a" data-toggle="tab">Applying clearfix</a>
+        </li>
+      <li><a href="#4a" data-toggle="tab">Background color</a>
+        </li>
+    </ul>
+	<div class="tab-content clearfix">
+            <div class="tab-pane active" id="1a">
+                <div class="formtosubmit">
+                   <form action="/">
+                        <div class="form-group">
+                          <label for="input1">input1:</label>
+                          <input type="text" class="form-control" id="input1" placeholder="Enter input1" name="input1">
+                        </div>
+                        <div class="form-group">
+                                <label for="sel1">Select one</label>
+                                <select class="form-control" id="sel1">
+                                  <option>1</option>
+                                  <option>2</option>
+                                  <option>3</option>
+                                  <option>4</option>
+                                </select>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-group">
+                                <input type="radio"  name="optradio">  Option 1
+                              </div>              
+                        </div>  
+
+              
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </form>
+                    </div>
+ 
+              </div>
+              <div class="tab-pane" id="2a">
+        <h3>We use the class nav-pills instead of nav-tabs which automatically creates a background color for the tab</h3>
+              </div>
+      <div class="tab-pane" id="3a">
+        <h3>We applied clearfix to the tab-content to rid of the gap between the tab and the content</h3>
+              </div>
+        <div class="tab-pane" id="4a">
+        <h3>We use css to change the background color of the content to be equal to the tab</h3>
+              </div>
+          </div>
+
+</div>
