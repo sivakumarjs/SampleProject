@@ -5,7 +5,6 @@ import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
-import {SideBarComponent} from './side-bar/side-bar.component';
 import { ProductListComponent } from './product-list/product-list.component';
 import {HomeComponent} from './Home/home.component';
 @NgModule({
@@ -21,7 +20,6 @@ import {HomeComponent} from './Home/home.component';
   declarations: [
     AppComponent,
     TopBarComponent,
-    SideBarComponent,
     HomeComponent,
     ProductListComponent
   ],
